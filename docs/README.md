@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: The description for the social card
-logo: images/ibm-blue-background.png
+logo: assets/ibm-blue-background.png
 ---
 
 # Introduction
@@ -17,17 +17,17 @@ Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. 
 
 The introductory page of the workshop is broken down into the following sections:
 
-* [Agenda](./#agenda)
-* [Compatibility](./#compatibility)
-* [Technology Used](./#technology-used)
-* [Credits](./#credits)
+* [Agenda](#agenda)
+* [Compatibility](#compatibility)
+* [Technology Used](#technology-used)
+* [Credits](#credits)
 
 ## Agenda
 
 |  |  |
 | :--- | :--- |
-| [Lab 0: Pre-work](pre-work/README.md) | Pre-work for the project |
-| [Lab 1: Some Title](lab-1/README.md) | Exercise to do the thing |
+| [Preparation](preparation/README.md) | Pre-work for the project |
+| [Step 1: Some Title](part-1/README.md) | Exercise to do the thing |
 
 ## Compatibility
 

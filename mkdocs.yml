@@ -1,100 +1,104 @@
 # Project information
-site_name: Workshop Setup
-site_url: https://ibm.github.io/workshop-template
-site_author: IBM Developer
+site_name: watsonx Orchestrate workshop
+site_url: https://arrow-ai-lab.github.io/workshop-watsonx-orchestrate
+site_author: Arrow AI Lab
 
 # Repository
-repo_name: workshop-template
-repo_url: https://github.com/ibm/workshop-template
-edit_uri: edit/master/docs
+repo_name: workshop-watsonx-orchestrate
+repo_url: https://github.com/arrow-ai-lab/workshop-watsonx-orchestrate
 
 # Navigation
 nav:
-  - Welcome:
-    - About the workshop: README.md
+  - Welcome: README.md
+  - Preparation: preparation/README.md
   - Workshop:
-    - Lab 0. Pre-work: pre-work/README.md
-    - Lab 1. Some Title: lab-1/README.md
-  - References:
-    - Additional Resources: resources/RESOURCES.md
-    - Contributors: resources/CONTRIBUTORS.md
-    - MkDocs Cheatsheet: resources/MKDOCS.md
-    - Admin Guide: resources/ADMIN.md
-
-## DO NOT CHANGE BELOW THIS LINE
+    - Create the Assistant : part-1/README.md
+    - Create a custom GenAI skill: part-2/README.md
 
 # Copyright
-copyright: Copyright &copy; 2023- IBM Developer
+copyright: Copyright &copy; 2025 Arrow AI Lab
 
 # Theme
 theme:
   name: material
-  font:
-    text: IBM Plex Sans
-    code: IBM Plex Mono
-  icon:
-    logo: material/library
-  logo: images/ibm-blue-background.png
-  features:
-    - navigation.tabs
-    #- navigation.instant
   palette:
-    scheme: default
-    primary: blue
-    accent: blue
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
 
-# Plugins
-plugins:
-  - search
-  - social
+#   font:
+#     text: IBM Plex Sans
+#     code: IBM Plex Mono
+#   icon:
+#     logo: material/library
+#   logo: images/ibm-blue-background.png
+#   features:
+#     - navigation.tabs
+#     #- navigation.instant
+#   palette:
+#     scheme: default
+#     primary: blue
+#     accent: blue
 
-# Customization
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ibm
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ibmdeveloper
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/ibm/
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/user/developerworks
-    - icon: fontawesome/brands/dev
-      link: https://dev.to/ibmdeveloper
+# # Plugins
+# plugins:
+#   - search
+# #  - social
 
-# Extensions
-markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - meta
-  - toc:
-      permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      check_paths: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+# # Customization
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/ibm
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/ibmdeveloper
+#     - icon: fontawesome/brands/linkedin
+#       link: https://www.linkedin.com/company/ibm/
+#     - icon: fontawesome/brands/youtube
+#       link: https://www.youtube.com/user/developerworks
+#     - icon: fontawesome/brands/dev
+#       link: https://dev.to/ibmdeveloper
+
+# # Extensions
+# markdown_extensions:
+#   - abbr
+#   - admonition
+#   - attr_list
+#   - def_list
+#   - footnotes
+#   - meta
+#   - toc:
+#       permalink: true
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - pymdownx.betterem:
+#       smart_enable: all
+#   - pymdownx.caret
+#   - pymdownx.critic
+#   - pymdownx.details
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:materialx.emoji.twemoji
+#       emoji_generator: !!python/name:materialx.emoji.to_svg
+#   - pymdownx.highlight
+#   - pymdownx.inlinehilite
+#   - pymdownx.keys
+#   - pymdownx.mark
+#   - pymdownx.smartsymbols
+#   - pymdownx.snippets:
+#       check_paths: true
+#   - pymdownx.superfences:
+#       custom_fences:
+#         - name: mermaid
+#           class: mermaid
+#           format: !!python/name:pymdownx.superfences.fence_code_format
+#   - pymdownx.tabbed
+#   - pymdownx.tasklist:
+#       custom_checkbox: true
+#   - pymdownx.tilde
