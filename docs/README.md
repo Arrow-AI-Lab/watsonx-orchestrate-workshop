@@ -6,39 +6,11 @@ logo: assets/ibm-blue-background.png
 
 # Introduction
 
-## Workshop Title
+## watsonx Orchestrate workshop
 
-Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. The goals of this workshop are:
+Welcome to our workshop!
+In this workshop, you'll learn how to use IBM watsonx Orchestrate to build an askSales AI agent with AI-driven actions, generative AI skills, and custom skill flows. You'll build the AI agent using the 
+Assistant Builder and Skill Studio.
 
-* Goals!
-* Have fun!
-
-### About this workshop
-
-The introductory page of the workshop is broken down into the following sections:
-
-* [Agenda](#agenda)
-* [Compatibility](#compatibility)
-* [Technology Used](#technology-used)
-* [Credits](#credits)
-
-## Agenda
-
-|  |  |
-| :--- | :--- |
-| [Preparation](preparation/README.md) | Pre-work for the project |
-| [Step 1: Some Title](part-1/README.md) | Exercise to do the thing |
-
-## Compatibility
-
-This workshop has been tested on the following platforms:
-
-* **osName**: version X, version Y
-
-## Technology Used
-
-* Brief Description
-
-## Credits
-
-* [Full Name](https://github.com/githubid)
+The use case scenario is an AI agent that helps a salesperson to 
+prepare for the new quarter and perform some actions, such as sending a marketing email to a customer according to the company's new sales play.

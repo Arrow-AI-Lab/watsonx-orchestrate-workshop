@@ -9,8 +9,11 @@ repo_url: https://github.com/arrow-ai-lab/workshop-watsonx-orchestrate
 
 # Navigation
 nav:
-  - Welcome: README.md
-  - Preparation: preparation/README.md
+  - Introduction: README.md
+  - Preparation: 
+    - Create your IBMid: ibmid/README.md
+    - Provision your environments: environment/README.md
+    - Get the required files: getfiles/README.md
   - Workshop:
     - Create the Assistant : part-1/README.md
     - Create a custom GenAI skill: part-2/README.md
