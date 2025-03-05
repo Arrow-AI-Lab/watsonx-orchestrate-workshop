@@ -19,4 +19,4 @@ The email should be like this:
 5. If you are on this page, it means that you have successfully provisioned your watsonx Orchestrate Trial.
 ![wxo main page](../assets/trialprints/ibm-wxo-mainpage.png)
 
-Just a test
+
