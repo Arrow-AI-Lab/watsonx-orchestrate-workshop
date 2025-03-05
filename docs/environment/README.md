@@ -1,20 +1,22 @@
 # Pre-work
 
-## 1. Sign up for IBM Cloud
+## 1. Create your watsonx Orchestrate Trail environment
+1. Open the [watsonx Orchestrate Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-52753) link o provision your Trail environment.
+If you already have an account, press the Log In link. If you don’t, please register on.
+![wxo login](../assets/trialprints/ibm-wxo-login.png)
 
-Ensure you have an IBM Cloud ID
+2. After successfully Logged in, press **Continue**.
+![wxo continue page](../assets/trialprints/ibm-wxo-cont.png)
 
-![Cloud Sign up](../assets/ibm-cloud-sign-up.png)
+3. On the “Deploy your trial” page, in the “Deployment Region” select **N. Virginia (us-east-1)**. In the “Instance Name”, feel free to leave the Standard Name or choose you own. Then click **Create trial instance**.
+![wxo select region](../assets/trialprints/ibm-wxo-selreg.png)
 
-## 2. Download or clone the repo
+4. After you see the “Your trail is ready!” page, you will also receive an email with the confirmation. Press **Access your trail now**.
+![wxo access trial](../assets/trialprints/ibm-wxo-accstrial.png)
+The email should be like this:
+![wxo email](../assets/trialprints/ibm-wxo-email.png)
 
-Various parts of this workshop will require the attendee to upload files or run scripts that we've stored in the repository. So let's get that done early on, you'll need [`git`](https://git-scm.com) on your laptop to clone the repository directly, or access to [GitHub.com](https://github.com/) to download the zip file.
+5. If you are on this page, it means that you have successfully provisioned your watsonx Orchestrate Trial.
+![wxo main page](../assets/trialprints/ibm-wxo-mainpage.png)
 
-To Download, go to the [GitHub repo for this workshop](https://github.com/IBM/workshop-template) and download the archived version of the workshop and extract it on your laptop.
 
-Alternately, run the following command:
-
-```bash
-git clone https://github.com/IBM/workshop-template
-cd workshop-template
-```
