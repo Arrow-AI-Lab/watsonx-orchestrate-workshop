@@ -1,13 +1,15 @@
-# Exercise Title
+# Creating the Assistant
 
-Description goes here.
+You will start by creating the assistant in the AI Assistant builder in watsonx Orchestrate.
 
-Steps
+1.  From the wxO home page, click AI assistant builder.
 
-## 1. Step 1
+    ![Cloud Sign up](../assets/ibm-cloud-sign-up.png)
 
-Things to do in Step 1
+2.  Click on the downwards arrow on the top of the screen to expand the list of assistants in your tenant, then click on +Create new
 
-## 2. Step 2
+    ![Cloud Sign up](../assets/ibm-cloud-sign-up.png)
 
-Things to do in Step 2
+3.  Name your assistant as “AskSales”, then give it a description if you’d like. If there is any other assistant with the same name on your tenant, try differentiating the assistant name somehow, like adding your own name next to AskSales. When you’re done, click Create assistant
+
+    ![Cloud Sign up](../assets/ibm-cloud-sign-up.png)
