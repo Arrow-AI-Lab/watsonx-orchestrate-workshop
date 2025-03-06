@@ -15,8 +15,8 @@ nav:
     - Provision your environments: environment/README.md
     - Get the required files: getfiles/README.md
   - Workshop:
-    - Create the Assistant: part-1/README.md
-    - Create a custom GenAI skill: part-2/README.md
+    - Create the AI assistant: part-1/README.md
+    - Create AI-guided action: part-2/README.md
 
 # Copyright
 copyright: Copyright &copy; 2025 Arrow AI Lab
