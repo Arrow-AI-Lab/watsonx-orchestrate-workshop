@@ -17,9 +17,10 @@ nav:
   - Workshop:
     - Create AI assistant: part-1/README.md
     - Create AI-guided action: part-2/README.md
-    - Create GenAI Skill for email body generation: part-3/README.md
-    - Create GenAI Skill for email title generation: part-4/README.md
-    - Publishing the GenAI Skills: part-5/README.md
+    - Create GenAI Skill for email body: part-3/README.md
+    - Create GenAI Skill for email title: part-4/README.md
+    - Publish GenAI Skills: part-5/README.md
+    - Create Skillflow: part-6/README.md
 
 # Copyright
 copyright: Copyright &copy; 2025 Arrow AI Lab
