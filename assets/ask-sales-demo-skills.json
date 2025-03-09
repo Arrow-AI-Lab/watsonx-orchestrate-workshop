@@ -1,0 +1,132 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Salesforce for AskSales",
+        "version": "1.0.0",
+        "description": "Salesforce skills for AskSales assistant",
+        "x-ibm-skill-type": "imported",
+        "x-ibm-skill-subtype": "public",
+        "x-ibm-application-id": "salesforceForAskSales",
+        "x-ibm-application-name": "Salesforce for AskSales"
+    },
+    "servers": [
+        {
+            "url": "https://dqeyt66kkl.execute-api.us-east-2.amazonaws.com"
+        }
+    ],
+    "security": [
+        {
+            "bearerAuth": []
+        }
+    ],
+    "paths": {
+        "/dev/customerList": {
+            "get": {
+                "summary": "Salesforce Customer List",
+                "description": "Displays a list of Salesforce accounts ordered by revenue",
+                "responses": {
+                    "200": {
+                        "description": "Table Display",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/SalesforceAccountsList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/dev/contactList": {
+            "get": {
+                "summary": "Get customer contacts by ID",
+                "description": "Get a list of Salesforce customer contacts by ID",
+                "parameters": [
+                    {
+                        "name": "customer_id",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Customer Contacts",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/CustomerContactList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "SalesforceAccountsList": {
+                "type": "object",
+                "properties": {
+                    "companiesTable": {
+                        "type": "array",
+                        "title": "Customers",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string",
+                                    "title": "id"
+                                },
+                                "name": {
+                                    "type": "string",
+                                    "title": "name"
+                                },
+                                "revenue": {
+                                    "type": "number",
+                                    "title": "revenue"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "CustomerContactList": {
+                "type": "object",
+                "properties": {
+                    "contactTable": {
+                        "type": "array",
+                        "title": "Contacts",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "Name": {
+                                    "type": "string",
+                                    "title": "Name"
+                                },
+                                "Title": {
+                                    "type": "string",
+                                    "title": "Title"
+                                },
+                                "Email": {
+                                    "type": "string",
+                                    "title": "Email"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "apiKey",
+                "in": "header",
+                "name": "Authorization"
+            }
+        }
+    }
+}
