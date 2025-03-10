@@ -1,4 +1,4 @@
-# Importing the Salesforce demo skills
+# Import custom skills
 
 In this section, you’ll import and publish the salesforce demo skills that 
 compose the AskSales demo flow.

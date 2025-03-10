@@ -15,15 +15,15 @@ nav:
     - Provision your environments: environment/README.md
     - Get the required files: getfiles/README.md
   - Workshop:
-    - Create AI assistant: part-1/README.md
-    - Create AI-guided action in AI assistant: part-2/README.md
-    - Create GenAI skill for emails generation: part-3/README.md
-    - Create GenAI skill for email titles generation: part-4/README.md
-    - Publish GenAI skills: part-5/README.md
-    - Import custom skills: part-6/README.md
-    - Connect skills to profiles: part-7/README.md
-    - Create skillflow: part-8/README.md
-    - Create skillflow based action in AI assistant: part-9/README.md
+    - 1. Create AI assistant: part-1/README.md
+    - 2. Create AI-guided action in AI assistant: part-2/README.md
+    - 3. Create GenAI skill for emails generation: part-3/README.md
+    - 4. Create GenAI skill for email titles generation: part-4/README.md
+    - 5. Publish GenAI skills: part-5/README.md
+    - 6. Import custom skills: part-6/README.md
+    - 7. Connect skills to profiles: part-7/README.md
+    - 8. Create skillflow: part-8/README.md
+    - 9. Create skillflow based action in AI assistant: part-9/README.md
 
 # Copyright
 copyright: Copyright &copy; 2025 Arrow AI Lab
