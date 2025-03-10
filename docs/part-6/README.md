@@ -1,11 +1,10 @@
-# Import custom skills
+# Importing the Salesforce custom skills
 
-In this section, you’ll import and publish the salesforce demo skills that 
-compose the AskSales demo flow.
+In this section, you'll import and publish the Salesforce custom skills that give us the ability to receive information from the Salesforce application via its API.
 
 ## 1. Importing a file to Skill Studio.
 
-First, make sure to download the [AskSales demo skills](../assets/ask-sales-demo-skills.json) if you haven’t already.
+First, make sure to download the [AskSales custom skills](../assets/ask-sales-demo-skills.json) if you haven’t already.
 
 Enter the **Skill Studio**.
 
@@ -15,7 +14,7 @@ Press **Create** (1) and then **Import API** (2)
 
 ![create action 2](./images/2025-03-10_13h37_36.png)
 
-On the **Add skills** screen, click on **From a file** (1) and click on Drag and drop (2) the **askSalesDemoSkills.json** file you downloaded previously into the indicated field or click on Drag and drop files (2) here or click to upload to open a file selection window and pick the askSalesDemoSkills.json file.
+On the **Add skills** screen, click on **From a file** (1) and upload (2) the **ask-sales-demo-skills.json** file you downloaded previously.
 
 ![create action 3](./images/2025-03-10_13h41_31.png)
 
@@ -23,7 +22,7 @@ After the successful validation, click **Next**.
 
 ![create action 4](./images/2025-03-10_13h44_54.png)
 
-You should see two skills in the Choose skills screen, the **Salesforce Customer List** and the **Get customer contacts by ID** skills. Make sure both are **selected** before clicking on **Add**.
+You should see two skills in the Choose skills screen, the **Salesforce Customer List** skill and the **Get customer contacts by ID** skill. Make sure both are **selected** before clicking on **Add**.
 
 ![create action 5](./images/2025-03-10_13h48_23.png)
 
